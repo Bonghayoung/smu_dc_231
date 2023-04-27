@@ -1,0 +1,28 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    color: white;
+}
+
+.section {
+    background-color: red;
+}
+
+.container {
+    background-color: green;
+    max-width:  1200px;
+ margin-inline: auto;
+
+ padding-inline: 24px;
+}
+
+.wrapper {
+    background-color: blue;
+   /* padding-top: 64px;
+    padding-bottom: 24px; */
+    padding-block: 64px;
+
+
+}
