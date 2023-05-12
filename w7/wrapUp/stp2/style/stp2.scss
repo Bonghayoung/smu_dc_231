@@ -1,27 +1,24 @@
 * {
-  margin: 0px;
-  padding: 0px;
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
 }
 
-/*.section {
-  /* background-color: red;
-}*/
-
 .container {
-  /*  background-color: green;*/
-  $padding-inline-value: 24px;
-  max-width: 1200px + 2 * $padding-inline-value;
+  $padding-inline-value: 64px;
+  max-width: calc(
+    1200px + 2 * #{$padding-inline-value}
+  );
   margin-inline: auto;
   padding-inline: $padding-inline-value;
 }
 
 .wrapper {
-  /* background-color: blue;*/
   padding-block: 64px;
 }
 
 .nav {
+  container-type: inline-size;
   .wrapper {
     display: flex;
     justify-content: space-between;
@@ -90,7 +87,7 @@
       max-width: 600px;
       margin-bottom: 24px;
     }
-    &.main {
+    & {
       aspect-ratio: 16 / 9;
     }
   }

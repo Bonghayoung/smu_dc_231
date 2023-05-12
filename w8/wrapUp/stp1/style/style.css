@@ -1,0 +1,34 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: boeder-box;
+}
+
+img {
+  display: block;
+}
+
+.container {
+  margin-inline: auto;
+  padding-inline: 32px;
+}
+
+@media (width < 37.5rem) {
+  .container {
+    padding-inline: 16px;
+  }
+}
+.wrapper {
+  padding-block: 32px;
+}
+
+.card {
+  max-width: 18.75rem;
+  background-color: aquamarine;
+}
+.card__img {
+  width: 100%;
+  aspect-ratio: 4/3;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
