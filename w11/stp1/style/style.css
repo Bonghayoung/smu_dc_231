@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+}
+.box {
+  aspect-ratio: 1 / 1;
+  width: 12.5rem;
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: bisque;
+  margin-bottom: 16px;
+  transition: background-color 250ms ease-in-out;
+}
+
+/* 중요도 020과 020은 뒤에 쓰인게 이긴다 */
+.box:hover {
+  background-color: rgb(87, 122, 248);
+}
+
+.box.boxSelected {
+  background-color: coral;
+}
