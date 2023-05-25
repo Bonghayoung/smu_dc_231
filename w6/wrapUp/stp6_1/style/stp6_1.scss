@@ -4,9 +4,9 @@
   box-sizing: border-box;
 }
 
-.section {
-  /* background-color: red;*/
-}
+// .section {
+//   /* background-color: red;*/
+// }
 
 .container {
   /*  background-color: green;*/
@@ -78,7 +78,7 @@
       max-width: 600px;
       margin-bottom: 24px;
     }
-    &.media {
+    &__media {
       aspect-ratio: 16 / 9;
       background-color: aliceblue;
     }
@@ -90,15 +90,15 @@
     margin-bottom: 24px;
   }
 }
+
 #hero2 {
   background-color: aliceblue;
   .wrapper {
     display: flex;
     align-items: center;
-    $gap-val: 24px;
-    gap: $gap-val & > * {
-      // flex: 1;
-      width: calc((100%-24px) / 2);
+    gap: 24px;
+    & > * {
+      flex: 1;
     }
   }
   .main {
@@ -117,6 +117,7 @@
     }
     &__media {
       aspect-ratio: 4 / 3;
+      background-color: rgb(209, 233, 255);
     }
   }
 }
