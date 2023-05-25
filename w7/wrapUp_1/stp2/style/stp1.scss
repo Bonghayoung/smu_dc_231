@@ -127,3 +127,39 @@
     }
   }
 }
+
+.footer {
+  font-size: 14px;
+  background-color: gray;
+  color: white;
+  a {
+    text-decoration: none;
+    color: white;
+  }
+  li {
+    list-style: none;
+    margin-bottom: 8px;
+  }
+  svg {
+    fill: white;
+  }
+  .wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap: 1.5rem;
+  }
+  h2 {
+    margin-bottom: 16px;
+    margin-top: 4px;
+    font-size: 16px;
+  }
+  &__logo {
+    margin-bottom: 12px;
+  }
+  &__extLinkWrap {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    margin-bottom: 8px;
+  }
+}
