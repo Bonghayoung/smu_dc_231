@@ -3,16 +3,26 @@
   padding: 0px;
   box-sizing: border-box;
 }
+body {
+  color: black;
+}
+
+.section {
+  /* background-color: red;*/
+}
 
 .container {
-  /*  background-color: green;*/
-  max-width: 1248px;
+  --variableName: 24px;
+  max-width: calc(1200px + 2 * var(variableName));
   margin-inline: auto;
   padding-inline: 24px;
+  padding: 8px 24px;
 }
 
 .wrapper {
   /* background-color: blue;*/
+  /* padding-top: 64px;
+  padding-bottom: 24px; */
   padding-block: 64px;
 }
 
@@ -22,89 +32,37 @@
   align-items: baseline;
   padding-block: 12px;
 }
-.nav.nav__menuWrapper {
-  gap: 24px;
-  display: flex;
-  align-items: baseline;
-}
 
 .nav .nav__menuWrapper {
   display: flex;
   gap: 24px;
   align-items: baseline;
+  justify-content: center;
 }
 
 .nav {
-  background-color: black;
+  background-color: rgb(41, 53, 112);
   color: white;
   font-weight: 700;
+  height: 90px;
 }
 
+.nav__menu,
+.nav__logo {
+  /* color: white; */
+}
+
+.nav .container {
+  /*background-color: black;*/
+}
+.navBar__logo {
+  height: 30px;
+  margin-bottom: 16px;
+  margin-top: 16px;
+}
 .button {
-  width: -moz-fit-content;
-  width: fit-content;
-  background-color: cornflowerblue;
+  background-color: rgb(255, 255, 255);
   padding: 8px 16px;
-  border-radius: 8px;
-  color: white;
-  font-weight: 700;
-  text-align: center;
-}
-.button--type-text {
-  background-color: unset;
-  color: cornflowerblue;
-  padding-inline: 0;
-}
-
-.main__media {
-  background-color: aquamarine;
-}
-
-#hero1 {
-  text-align: center;
-}
-#hero1 .button {
-  margin-inline: auto;
-}
-#hero1 .main__text {
-  margin-inline: auto;
-  max-width: 600px;
-  margin-bottom: 24px;
-}
-#hero1 .main__media {
-  aspect-ratio: 16/9;
-  background-color: aliceblue;
-}
-#hero1 h2 {
-  margin-bottom: 16px;
-}
-#hero1 p {
-  margin-bottom: 24px;
-}
-
-#hero2 {
-  background-color: aliceblue;
-}
-#hero2 .wrapper {
-  display: flex;
-  align-items: center;
-  gap: 24px;
-}
-#hero2 .wrapper > * {
-  flex: 1;
-}
-#hero2 .main__text__buttonWrapper {
-  display: flex;
-  gap: 24px;
-}
-#hero2 .main__text__buttonWrapper h2 {
-  margin-bottom: 16px;
-}
-#hero2 .main__text__buttonWrapper p {
-  max-width: 40ch;
-  margin-bottom: 24px;
-}
-#hero2 .main__media {
-  aspect-ratio: 4/3;
-  background-color: rgb(209, 233, 255);
+  border-radius: 100px;
+  color: black;
 }
