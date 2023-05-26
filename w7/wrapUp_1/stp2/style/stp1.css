@@ -58,6 +58,13 @@
 
 .main__media {
   background-color: aquamarine;
+  overflow: hidden;
+}
+.main__media img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 #hero1 {
@@ -82,9 +89,6 @@
   margin-bottom: 24px;
 }
 
-#hero2 {
-  background-color: aliceblue;
-}
 #hero2 .wrapper {
   display: flex;
   align-items: center;
@@ -107,4 +111,40 @@
 #hero2 .main__media {
   aspect-ratio: 4/3;
   background-color: rgb(209, 233, 255);
+}
+
+.footer {
+  font-size: 14px;
+  background-color: gray;
+  color: white;
+}
+.footer a {
+  text-decoration: none;
+  color: white;
+}
+.footer li {
+  list-style: none;
+  margin-bottom: 8px;
+}
+.footer svg {
+  fill: white;
+}
+.footer .wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  gap: 1.5rem;
+}
+.footer h2 {
+  margin-bottom: 16px;
+  margin-top: 4px;
+  font-size: 16px;
+}
+.footer__logo {
+  margin-bottom: 12px;
+}
+.footer__extLinkWrap {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  margin-bottom: 8px;
 }
