@@ -1,0 +1,119 @@
+/* =================================================================== 
+Common
+=================================================================== */
+
+
+*{
+    font-family: 'Heebo' ,sans-serif;
+}
+
+
+
+
+/* =================================================================== 
+Header
+=================================================================== */
+
+.protfolio_header_nav{
+    margin-bottom: 160px;
+}
+.protofolio_header_detail {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 27px;
+}
+
+.protofolio_header_detail > li > a{
+    display: block;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 29px;
+    color: #000000;
+}
+
+.protofolio_header_detail li:not(:last-child){
+    margin-right: 34px;
+}
+
+.protofolio_header_detail li:last-child{
+    margin-right: 60px;
+}
+
+
+/* =================================================================== 
+body
+=================================================================== */
+
+
+/* =================================================================== 
+footer 
+=================================================================== */
+
+/*footer*/
+
+
+.footer_main_link{
+    display: flex;
+    width: 234px;
+    height: 30px;
+    margin: 0 auto;
+    padding-top: 51px;
+    padding-bottom: 26px;
+    margin-bottom: 26px;
+}
+
+.footer_main_link .fb_logo{
+    display: block;
+    width: 30px;
+    height: 30px;
+}
+
+.footer_main_link .insta_logo{
+    display: block;
+    width: 30px;
+    height: 30px;
+    margin: 0px 35px 0px;
+}
+
+.footer_main_link .twiter_logo{
+    display: block;
+    width: 30px;
+    height: 30px;
+    margin-right: 35px;
+}
+
+.footer_main_link .in_logo{
+    display: block;
+    width: 30px;
+    height: 30px;
+}
+
+.footer_trafalgar_main > span {
+    display: block;
+    height: 21px;
+    width: 250px;
+    margin: 0 auto;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    color: #21243D;
+    margin-bottom: 54px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

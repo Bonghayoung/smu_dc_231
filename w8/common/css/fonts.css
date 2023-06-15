@@ -1,0 +1,62 @@
+@font-face {
+    font-family: 'Heebo';
+    src: url('../fonts/heebo/Heebo-Thin.ttf') format('woff');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Heebo';
+    src: url('../fonts/heebo/Heebo-ExtraLight.ttf') format('woff');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Heebo';
+    src: url('../fonts/heebo/Heebo-Light.ttf') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Heebo';
+    src: url('../fonts/heebo/Heebo-Regular.ttf') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Heebo';
+    src: url('../fonts/heebo/Heebo-Medium.ttf') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Heebo';
+    src: url('../fonts/heebo/Heebo-Medium.ttf') format('woff');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Heebo';
+    src: url('../fonts/heebo/Heebo-SemiBold.ttf') format('woff');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Heebo';
+    src: url('../fonts/heebo/Heebo-Bold.ttf') format('woff');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Heebo';
+    src: url('../fonts/heebo/Heebo-Black.ttf') format('woff');
+    font-weight: 900;
+    font-style: normal;
+}
